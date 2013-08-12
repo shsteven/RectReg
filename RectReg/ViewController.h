@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet GPUImageView *filteredVideoView;
+@property (strong) GPUImageVideoCamera *camera;
+@property (strong, nonatomic) IBOutlet UISlider *filterSettingsSlider;
+
+@property (strong) GPUImageHoughTransformLineDetector *transformLineDetector;
+
 @end
